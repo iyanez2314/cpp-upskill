@@ -1,6 +1,7 @@
 #include <iostream>
 
 using namespace std;
+
 int main () 
 {
 
@@ -10,7 +11,7 @@ int main ()
 
     cin >> favorite_number;
 
-    cout << "Amazing!! That's my favorite number too!" << endl;
+ cout << "Amazing!! " << favorite_number << " is also my favorite!" << endl;
 
     return 0;
 }
